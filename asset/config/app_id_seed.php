@@ -24,7 +24,7 @@ namespace OP;
  * The longer the string, the harder it is to predict.
  * We recommend including non-alphabetic characters such as kanji or emoji.
  */
-$seed = ''; // Very long string
+$seed = md5($_SERVER['SERVER_NAME'] ?? __FILE__); // Very long string
 
 //	...
 return (string)$seed;
