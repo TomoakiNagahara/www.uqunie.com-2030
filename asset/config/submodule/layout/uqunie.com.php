@@ -19,5 +19,6 @@ namespace OP;
 
 //	...
 return [
+	'path'   => 'uqunie.com',
 	'url'    => 'https://github.com/TomoakiNagahara/op-layout-uqunie.com.git',
 ];
