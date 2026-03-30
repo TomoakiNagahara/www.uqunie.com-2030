@@ -17,5 +17,6 @@ namespace OP\UNIT\CD;
 return [
 	'branch' => [
 		'uqunie',
+		'2030',
 	],
 ];
