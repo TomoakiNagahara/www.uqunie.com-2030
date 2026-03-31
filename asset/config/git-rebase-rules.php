@@ -21,6 +21,14 @@ namespace OP;
 return [
 	//	Allowed commit message prefix.
 	'prefix' => [
+		/*
+		'NEW: ',
+		'DOC: ',
+		'FIX: ',
+		'DEL: ',
+		'CI: ',
+		'CLI: ',
+		*/
 		'New: ',
 		'Add: ',
 		'Chg: ',
