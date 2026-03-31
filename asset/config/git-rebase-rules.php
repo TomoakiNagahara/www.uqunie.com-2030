@@ -29,6 +29,7 @@ return [
 		'CI: ',
 		'CLI: ',
 		*/
+		'uqunie: ',
 		'New: ',
 		'Add: ',
 		'Chg: ',
