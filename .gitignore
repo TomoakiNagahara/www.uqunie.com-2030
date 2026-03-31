@@ -1,6 +1,6 @@
 .*
 _*
-public_html/
+public_*/
 asset/db/
 asset/core/
 asset/bootstrap/
