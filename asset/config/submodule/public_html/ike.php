@@ -20,7 +20,6 @@ namespace OP;
 //	...
 return [
 	'skip'   =>  0,
-	'path'   => 'ike',
+	'path'   => 'public_ike',
 	'url'    => 'https://github.com/TomoakiNagahara/op-public-uqunie-com-ike.git',
-	'branch' => 'ike',
 ];
