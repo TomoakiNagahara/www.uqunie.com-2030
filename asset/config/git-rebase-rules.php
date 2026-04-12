@@ -22,12 +22,13 @@ return [
 	//	Allowed commit message prefix.
 	'prefix' => [
 		/*
+		'WIP: ',
 		'NEW: ',
 		'DOC: ',
 		'FIX: ',
 		'DEL: ',
-		'CI: ',
 		'CLI: ',
+		'CI: ',
 		*/
 		'uqunie: ',
 		'New: ',
