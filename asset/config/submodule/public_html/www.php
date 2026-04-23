@@ -20,6 +20,6 @@ namespace OP;
 //	...
 return [
 	'skip'   =>  0,
-	'path'   => 'public_www',
+	'path'   => 'public/www',
 	'url'    => 'https://github.com/TomoakiNagahara/op-public-uqunie-com-www.git',
 ];
