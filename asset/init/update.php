@@ -55,7 +55,7 @@ require_once(__DIR__.'/function/GitSubmoduleGithub.php');
 require_once(__DIR__.'/function/GitSubmoduleRepository.php');
 
 //	Init
-$indicator = Request('indicator','1');
+$indicator = Request('indicator','0');
 
 //	Get config list.
 foreach( glob(_ROOT_GIT_.'/asset/config/submodule/*/*.php') as $glob ){
