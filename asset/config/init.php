@@ -29,5 +29,9 @@ return [
 	'host'   => 'arch',
 	'push'   => 'ssh',
 	'scheme' => 'ssh',
+
+	//	Convert separators in the repository name to directory separators.
+	'dot2slash'    => 1,
+	'hyphen2slash' => 1,
 	*/
 ];
