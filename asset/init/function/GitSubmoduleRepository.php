@@ -68,8 +68,24 @@ function GitSubmoduleRepository()
 	$url  = trim($url);
 	$temp = explode('/', $url);
 	$name = array_pop($temp);
-	$temp = explode('-', $name);
-	$path = implode('/', $temp);
+
+	//	Keep the Git repository suffix out of path separator conversion.
+	if( $suffix = str_ends_with($name, '.git') ? '.git': '' ){
+		$name   = substr($name, 0, -strlen($suffix));
+	}
+
+	//	"." --> "/"
+	if( Request('dot2slash') ){
+		$name = str_replace('.', '/', $name);
+	}
+
+	//	"-" --> "/"
+	if( Request('hyphen2slash') ){
+		$name = str_replace('-', '/', $name);
+	}
+
+	//	Convert only the separators explicitly selected by the user.
+	$path = $name.$suffix;
 
 	//	local
 	if( Request('local') ){
