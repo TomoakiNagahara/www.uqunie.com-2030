@@ -25,8 +25,8 @@ return [
 	'github' => 'TomoakiNagahara',
 	'local'  =>  1,
 	'ssh'    =>  1,
+	'dir'    => '~/repo/',
 	'host'   => 'arch',
-	'path'   => '~/repo/',
 	'push'   => 'ssh',
 	'scheme' => 'ssh',
 	*/
